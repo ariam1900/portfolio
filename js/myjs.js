@@ -23,14 +23,22 @@ function ocultar() {
 				document.getElementById("cerrar").style.display = "none";
 			}
 
-/*/Abrir/cerrar menu movil
-if (screen.width > 1024) {
+//Abrir/cerrar menu movil
+if (screen.width < 1024) {
 	function mostrar() {
-				document.getElementById("sidebar").style.width = "60%";
-				document.getElementById("contenido").style.marginLeft = "59%";
-				
+				document.getElementById("sidebar").style.width = "350px";
+				document.getElementById("contenido").style.marginLeft = "270px";
+                document.getElementById("abrir").style.display = "none";
+				document.getElementById("cerrar").style.display = "inline";
 			}
-} */
+    function ocultar() {
+				document.getElementById("sidebar").style.width = "0";
+				document.getElementById("contenido").style.marginLeft = "0";
+				document.getElementById("abrir").style.display = "inline";
+				document.getElementById("cerrar").style.display = "none";
+			}
+    
+} 
 
 //Menu Toggle
 $(document).ready(function(){
