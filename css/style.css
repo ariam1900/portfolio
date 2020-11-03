@@ -396,7 +396,7 @@ box-shadow: 10px 10px 5px #777;
 	}
 body {
     font-family: 'Muli', sans-serif;
-    font-size:185%;
+    font-size:300%;
 	color: #000000;
 	background-color: #8DB9E4;
 	height: calc(100% - 160px);
@@ -434,8 +434,9 @@ body {
 }
 
 #content  {
-
-	margin: 85px 170px 85px 85px;	
+    width: 100%;
+	margin: 80px;	
+    padding: 0 160px 0 80px;
 }
 
 #lenguages {
@@ -466,6 +467,15 @@ footer img {
 	padding: 0 5%;
 }
     
+/********MENU********/
+    
+.sidebar a {
+    color: black;
+	padding: 2% 15%;
+	font-size:55px;
+	
+}
+    
 /********INDEX********/
     #anim {           
 	position: absolute;
@@ -484,7 +494,7 @@ footer img {
     display: none;
 }
     
- #picture {
+#picture {
     display: inline;
     clear: both;
     float: left;
@@ -496,29 +506,34 @@ footer img {
     left: 25%;
     width: 50%;
 }
-
  #description {
-    display: inline;
-    clear: both;
+    display: block;
+    clear: none;
     float: left;
-    width: 100%;
+    
+    
 }
+
     
 /********WORKS********/
-.izq {
+.izqm {
     display: inline;
     clear: both;
     float: left;
     width: 48%;
-    margin: 1% 1% 4% 1%;
+    margin: 1% 1% 0% 1%;
 }
 
-.der {
+.derm {
     display: inline;
     clear: both;
     float: left;
     width: 48%;
-    margin: 1% 1% 4% 1%;
+    margin: 1% 1% 0% 1%;
+}
+
+.center {
+    padding: 0;
 }
 
 
